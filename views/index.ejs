@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>奇趣百科 - 一贱你就笑</title>
+	<link rel="stylesheet" href="dist/all.min.css">
+	<meta name="description" content="我们不约pao，我们只负责搞笑！奇趣百科是UC旗下一个专注于为用户提供搞笑内容，集内涵段子、搞笑图片、搞笑视频和小贱日报等特色栏目于一身的搞笑类站点">
+	<meta name="keywords" content="奇趣百科 搞笑 段子 糗事 冷笑话 神回复 笑料 搞笑图片 搞笑视频">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+	<style type="text/css">
+		<%- cssreset %>
+	</style>
+	<link rel="stylesheet" href="/dist/all.min.css" />
+	<link rel="stylesheet" href="/lib/swiper.min.css">
+</head>
+<body>
+	<div id="app">
+		<router-view></router-view>
+	</div>
+	
+	<script type="text/javascript" src="lib/zepto.min.js"></script>
+	<script type="text/javascript" src="lib/swiper-3.4.2.jquery.min.js"></script>
+	<script type="text/javascript">
+		var indexdata = <%- indexdata %>
+	</script>
+ 
+	<script type="text/javascript" src="dist/bundle.js"></script>
+</body>
+</html>
